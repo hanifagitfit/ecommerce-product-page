@@ -1,0 +1,135 @@
+@media screen and (min-width:1326px) {
+    .container{
+        width: 78%;
+        margin: 0 auto;
+    }
+    .burger_group{
+        gap: 3rem;
+    }
+    .burger{
+        display: none;
+    }
+    .header{
+        border-bottom: 1px solid hsl(220, 14%, 75%);
+    }
+    .menu_item{
+        display: block;
+        height: unset;
+        position: unset;
+        z-index: unset;
+    }
+    .side_bar{
+        width: unset;
+        padding: 0;
+    }
+    #btnClose{
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        gap: 2rem;
+        font-size: 1rem;
+    }
+    li{
+        display: block;
+        font-weight: 400;
+        padding: 2rem 0;
+        color: hsl(219, 9%, 45%);
+        border-bottom: 2px solid transparent;
+    }
+    li:hover{
+        cursor: pointer;
+        color: hsl(220, 13%, 13%);
+        font-weight: 700;
+        border-bottom: 2px solid hsl(26, 100%, 55%);
+    }
+    .avcart{
+        gap: 2rem;
+    }
+    .avatar{
+        width: 3.4rem;
+    }
+    .cart_detail{
+        left: 48rem;
+        top: 5rem;
+        box-shadow: 13px 12px 15px 3px  hsl(220, 14%, 75%) ;
+
+    }
+    .previous, .next{
+        display: none;
+    }
+    .proContainer{
+        display: flex;
+        width: 78%;
+        margin: 3rem auto;
+        padding: 1rem 3rem;
+        gap: 4rem;
+    }
+    #product {
+        border-radius: 1rem;
+        width: 100%;
+    }
+    .thumbnail{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        align-items: center;
+    }
+    .pro{
+        display: flex;
+       overflow: hidden;
+       height: fit-content;
+       width: 20%;
+       border-radius: 0.5rem;
+    }
+    .pro img{
+        width: 100%;
+    }
+    .active, .pro:hover{
+        border: 3px solid hsl(26, 100%, 55%);
+        opacity: 0.5;
+    }
+    
+    .company{
+        margin-top: 1.8rem;
+    }
+    
+    #primary{
+        margin: 0.2rem 0;
+        font-size: 2.4rem;
+    }
+    .para{
+        font-size: 1rem;
+        margin-top: 1rem;
+        font-weight: 520;
+    }
+    .button_group{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    .price{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0.9rem;
+    }
+    #cut_price{
+        margin-top: 0.5rem;
+    }
+    .inc_dec{
+        padding: 1.5rem 1rem;
+        width: 12rem;
+    }
+    .add_to_cart{
+        text-align: center;
+        padding: 1rem;
+        width: 15rem;
+    }
+    .add_to_cart:hover{
+        opacity: 0.5;
+    }
+    
+}
