@@ -118,7 +118,7 @@ function addToCart() {
 
 
     const productHTMLElement = `<div class="item">
-    <img id='cart_pro' src="/images/image-product-1-thumbnail.jpg" alt="product" >
+    <img id='cart_pro' src="images/image-product-1-thumbnail.jpg" alt="product" >
     <div class="details">
         <div class="name">Fall Limited Edition Sneakers</div>
         <div class="price_group">
