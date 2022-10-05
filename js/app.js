@@ -127,7 +127,7 @@ function addToCart() {
             <div class="total_amount">$${(price * discount * productInCart).toFixed(2)} </div>
         </div>
     </div>
-    <img id='deletee' src="/images/icon-delete.svg" alt="delete" >
+    <img id='deletee' src="images/icon-delete.svg" alt="delete" >
 </div>`;
 
     shoppingCart.innerHTML = productHTMLElement;
