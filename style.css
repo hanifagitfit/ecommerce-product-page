@@ -1,5 +1,3 @@
- /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Poppins:wght@300&display=swap'); */
  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&family=Poppins:wght@300&display=swap');
 
  * {
@@ -213,9 +211,9 @@
    width: 100%;
  }
 
- /* .proContainer {
-   /* position: relative; */
- /* } */ 
+  .proContainer {
+   position: relative;
+  }  
 
  .previous {
    left: 4%;
@@ -234,7 +232,7 @@
 
  .arrow {
    position: absolute;
-   top: 40%;
+   top: 20%;
    transform: translateY(-50%);
    background-color: hsl(0, 0%, 100%);
    border-radius: 50%;
