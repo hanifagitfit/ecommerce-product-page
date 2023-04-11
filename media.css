@@ -5,6 +5,7 @@
     }
     .burger_group{
         gap: 3rem;
+        
     }
     .burger{
         display: none;
@@ -29,7 +30,7 @@
         display: flex;
         flex-direction: row;
         margin: 0;
-        gap: 2rem;
+        /* gap: 2rem; */
         font-size: 1rem;
     }
     li{
@@ -38,6 +39,7 @@
         padding: 2rem 0;
         color: hsl(219, 9%, 45%);
         border-bottom: 2px solid transparent;
+        margin: 0 1rem;
     }
     li:hover{
         cursor: pointer;
@@ -46,7 +48,8 @@
         border-bottom: 2px solid hsl(26, 100%, 55%);
     }
     .avcart{
-        gap: 2rem;
+        /* gap: 2rem; */
+        margin: 0 1rem;
     }
     .avatar{
         width: 3.4rem;
@@ -107,7 +110,8 @@
     }
     .button_group{
         display: flex;
-        gap: 1rem;
+        /* gap: 1rem; */
+        /* margin: 0 2rem; */
         align-items: center;
     }
     .price{
@@ -127,6 +131,8 @@
         text-align: center;
         padding: 1rem;
         width: 15rem;
+        margin-left: 1rem;
+        margin-top: 0;
     }
     .add_to_cart:hover{
         opacity: 0.5;
